@@ -8,7 +8,7 @@ After install this chrome extension, you can search opened tabs and switch to it
 
 ## 1. Chrome Extension Store
 
-Waiting for review
+[Chrome Web Store](https://chromewebstore.google.com/detail/wox/bjbkdpjdnagiongdfemjhepkkglnailh?hl=zh-CN&authuser=0)
 
 ## 2. Manual
 
