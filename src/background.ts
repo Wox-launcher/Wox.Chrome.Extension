@@ -83,6 +83,12 @@ function connect() {
                     const tabData = JSON.parse(msg.data) as OpenTabData;
                     highlightTab(tabData);
                 }
+                if (msg.method === "openUrl") {
+                    const url = msg.data;
+                    chrome.tabs.create({url: url}, (tab) => {
+                        console.log("opened url:", url, "tab:", tab);
+                    });
+                }
             };
             ws.onclose = () => {
                 console.log("disconnected from the server");

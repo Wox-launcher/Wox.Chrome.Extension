@@ -11,7 +11,8 @@
     "service_worker": "js/background.js"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "tabs"
   ],
   "host_permissions": [
     "<all_urls>"
