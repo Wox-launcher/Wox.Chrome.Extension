@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Wox",
   "description": "Extends the web features of Wox",
-  "version": "1.0",
+  "version": "1.0.2",
   "action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
